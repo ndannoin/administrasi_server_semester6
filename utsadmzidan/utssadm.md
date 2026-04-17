@@ -20,4 +20,5 @@ Deployment Aplikasi Web
 
 Setelah layanan Nginx berhasil dijalankan, dilakukan pengujian dengan mengakses alamat IP publik (Elastic IP) melalui browser.
 Website CV yang telah diunggah kemudian berhasil ditampilkan, menandakan bahwa proses deployment berjalan dengan baik dan server dapat diakses secara online.
-Dengan demikian, konfigurasi web server dan proses upload file website telah berhasil dilakukan tanpa kendala. alt text
+Dengan demikian, konfigurasi web server dan proses upload file website telah berhasil dilakukan tanpa kendala. <img width="1920" height="1041" alt="image" src="https://github.com/user-attachments/assets/dcea80b6-6ff5-47a9-835a-f2fee754b416" />
+
