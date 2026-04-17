@@ -55,7 +55,7 @@
 
 <header class="min-h-screen flex items-center justify-center pt-20">
     <div class="text-center">
-        <img src="https://picsum.photos/300" class="rounded-full mx-auto mb-6 border-4 border-slate-800">
+        <img src="zaidan.jpg" class="rounded-full mx-auto mb-6 border-4 border-slate-800">
         <h1 class="text-4xl md:text-5xl font-bold mb-3">Zaidan Alif Firdaus</h1>
         <p class="text-slate-400 mb-2">Mahasiswa & Pecinta Olahraga ⚽</p>
         <p class="text-primary font-mono">NIM: 2388010038</p>
