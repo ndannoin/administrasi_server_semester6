@@ -1,149 +1,118 @@
 <!DOCTYPE html>
+
 <html lang="id" class="scroll-smooth">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portofolio - Zaidan Alif Firdaus</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Zaidan Alif Firdaus</title>
+
+```
+<meta name="description" content="Portofolio Zaidan Alif Firdaus">
 
 <script src="https://cdn.tailwindcss.com"></script>
 
-<!-- AOS -->
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
 <script>
-tailwind.config = {
-    theme: {
-        extend: {
-            colors: {
-                primary: '#3b82f6',
-                secondary: '#1f2937',
-                dark: '#020617'
+    tailwind.config = {
+        theme: {
+            extend: {
+                colors: {
+                    primary: '#22c55e', 
+                    secondary: '#1e293b',
+                    dark: '#0f172a',
+                    light: '#f8fafc',
+                }
             }
         }
     }
-}
 </script>
 
 <style>
-::-webkit-scrollbar { width: 8px; }
-::-webkit-scrollbar-thumb { background: #3b82f6; }
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #0f172a; }
+    ::-webkit-scrollbar-thumb { background: #334155; border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #22c55e; }
 </style>
+```
 
 </head>
 
-<body class="bg-dark text-white font-sans">
+<body class="bg-dark text-light font-sans antialiased">
 
-<!-- NAVBAR -->
-<nav class="fixed w-full bg-dark/90 border-b border-gray-800 z-50" data-aos="fade-down">
-    <div class="container mx-auto px-6 py-4">
-        <h1 class="font-bold">portfolio</h1>
+<!-- Navbar -->
+
+<nav class="fixed w-full z-50 bg-dark/90 backdrop-blur-md border-b border-slate-800">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+        <h1 class="text-xl font-bold text-white">zaidan.portfolio</h1>
+        <ul class="hidden md:flex space-x-8 text-sm text-slate-400">
+            <li><a href="#about" class="hover:text-primary">About</a></li>
+            <li><a href="#skills" class="hover:text-primary">Skills</a></li>
+            <li><a href="#education" class="hover:text-primary">Education</a></li>
+        </ul>
     </div>
 </nav>
 
-<!-- HERO -->
-<header class="min-h-screen flex items-center pt-20">
-<div class="container mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
-    <!-- FOTO -->
-    <div class="flex justify-center" data-aos="zoom-in">
-        <img src="aWhatsApp Image 2026-04-15 at 16.05.46.jpeg"
-        class="rounded-full w-60 h-60 border-4 border-primary shadow-xl hover:scale-110 transition duration-500">
-    </div>
-    <!-- INFO -->
-    <div data-aos="fade-left">
-        <h1 class="text-5xl font-bold mb-2">
-            Zaidan <br>
-            <span class="text-primary">Firdaus</span>
-        </h1>
-        <p class="text-gray-400 mb-4">Social Media</p>
-        <p class="text-gray-400">@phileyoudan</p>
-        <p class="text-gray-400 mb-6">Subang, Jawa Barat</p>
-        <a href="#" class="bg-primary px-6 py-3 rounded-lg hover:bg-blue-600 transition">
-            Contact Me
-        </a>
-    </div>
+<!-- Hero -->
 
-</div>
+<header class="min-h-screen flex items-center justify-center pt-20">
+    <div class="text-center">
+        <img src="https://picsum.photos/300" class="rounded-full mx-auto mb-6 border-4 border-slate-800">
+        <h1 class="text-4xl md:text-5xl font-bold mb-3">Zaidan Alif Firdaus</h1>
+        <p class="text-slate-400 mb-2">Mahasiswa & Pecinta Olahraga ⚽</p>
+        <p class="text-primary font-mono">NIM: 2388010038</p>
+        <p class="text-slate-500 mt-2">📍 Subang, Jawa Barat</p>
+    </div>
 </header>
 
-<!-- ABOUT -->
-<section class="py-20 bg-secondary/50 text-center" data-aos="fade-up">
-<div class="container mx-auto px-6">
-<h2 class="text-3xl font-bold mb-6">About Me</h2>
+<!-- About -->
 
-<p class="text-gray-400 max-w-2xl mx-auto">
-Saya adalah lulusan SMK Darul Ma'arif yang memiliki minat dalam bidang sosial media dan teknologi.
-Mampu bekerja secara individu maupun tim serta memiliki komunikasi yang baik.
-</p>
-</div>
+<section id="about" class="py-16 text-center bg-secondary/50">
+    <h2 class="text-3xl font-bold mb-6">Biodata</h2>
+    <p class="max-w-2xl mx-auto text-slate-300">
+        Saya adalah mahasiswa dengan minat di bidang olahraga dan game. 
+        Saya menyukai permainan sepak bola baik secara langsung maupun digital seperti eFootball dan Mobile Legends.
+        Selain itu, saya juga senang bermain game offline seperti PS2, PS3, dan PS4 khususnya game bola (PES/eFootball).
+    </p>
 </section>
 
-<!-- GRID -->
-<section class="py-20 px-6">
-<div class="grid md:grid-cols-3 gap-8">
+<!-- Skills -->
 
-<!-- Pendidikan -->
-<div class="bg-gray-900 p-6 rounded-xl shadow-lg hover:scale-105 transition" data-aos="zoom-in">
-<h3 class="text-xl font-bold text-primary mb-3">Pendidikan</h3>
-<ul class="text-gray-400">
-<li>SDN Margaluyu</li>
-<li>SMPN 1 Pamanukan</li>
-<li>SMK Darul Ma'arif</li>
-</ul>
-</div>
+<section id="skills" class="py-16 text-center">
+    <h2 class="text-3xl font-bold mb-10">Keahlian</h2>
 
-<!-- Skill -->
-<div class="bg-gray-900 p-6 rounded-xl shadow-lg hover:scale-105 transition" data-aos="zoom-in" data-aos-delay="100">
-<h3 class="text-xl font-bold text-primary mb-3">Keterampilan</h3>
-<ul class="text-gray-400">
-<li>Olahraga</li>
-<li>Bersosialisasi</li>
-<li>Berorganisasi</li>
-</ul>
+```
+<div class="flex flex-wrap justify-center gap-6">
+    <div class="bg-dark p-6 rounded border">⚽ Olahraga (Sepak Bola)</div>
+    <div class="bg-dark p-6 rounded border">🎮 Mobile Legends</div>
+    <div class="bg-dark p-6 rounded border">🎮 eFootball</div>
+    <div class="bg-dark p-6 rounded border">🕹️ PS2 / PS3 / PS4 (Game Bola)</div>
 </div>
+```
 
-<!-- Sertifikat -->
-<div class="bg-gray-900 p-6 rounded-xl shadow-lg hover:scale-105 transition" data-aos="zoom-in" data-aos-delay="200">
-<h3 class="text-xl font-bold text-primary mb-3">Sertifikat</h3>
-<ul class="text-gray-400">
-<li>Microsoft Office</li>
-<li>Word & Excel</li>
-<li>PKL</li>
-</ul>
-</div>
-
-</div>
 </section>
 
-<!-- EXTRA -->
-<section class="py-20 bg-secondary/50 px-6">
-<div class="grid md:grid-cols-2 gap-8">
+<!-- Education -->
 
-<div class="bg-dark p-6 rounded-xl border border-gray-800" data-aos="fade-right">
-<h3 class="text-xl font-bold text-primary mb-3">Organisasi</h3>
-<p class="text-gray-400">Futsal</p>
-</div>
+<section id="education" class="py-16 bg-secondary/50 text-center">
+    <h2 class="text-3xl font-bold mb-10">Riwayat Pendidikan</h2>
 
-<div class="bg-dark p-6 rounded-xl border border-gray-800" data-aos="fade-left">
-<h3 class="text-xl font-bold text-primary mb-3">Hobi</h3>
-<p class="text-gray-400">Musik, Game, Futsal</p>
+```
+<div class="space-y-4 text-slate-300">
+    <p>🏫 SDN Margaluyu, Kec. Subang</p>
+    <p>🏫 SMPN 1 Pamanukan, Subang</p>
+    <p>🏫 SMK Darul Ma'arif, Pamanukan</p>
+    <p>🎓 UIN SSC (Saat ini)</p>
 </div>
+```
 
-</div>
 </section>
 
-<!-- FOOTER -->
-<footer class="text-center py-10 border-t border-gray-800" data-aos="fade-up">
-<p class="text-gray-400">Zaidan Alif Firdaus</p>
-<p class="text-primary font-bold">NIM: 2388010038</p>
+<!-- Footer -->
+
+<footer class="py-10 text-center border-t border-slate-800">
+    <p class="text-slate-400 mb-2">Zaidan Alif Firdaus</p>
+    <p class="text-primary font-mono mb-2">NIM: 2388010038</p>
+    <p class="text-slate-500 text-sm">© 2026</p>
 </footer>
-
-<script>
-AOS.init({
-    duration: 1000,
-    once: true
-});
-</script>
 
 </body>
 </html>
