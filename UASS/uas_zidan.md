@@ -18,11 +18,13 @@ Ujian Akhir Semester : Deploy 2 System Apps Static Web dan Dynamic Web
 "echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download docker.com/linux/ubuntu ${VERSION_CODENAME} stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/ null"
 "sudo apt update"
 "sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin"
+![alt text](image-13.png)
 
 LALU AKTIFKAN DOCKER
 "sudo systemctl enable docker"
 "sudo systemctl start docker"
 "sudo usermod -aG docker ubuntu"
+![alt text](image-12.png)
 
 5. Set Up Docker Hub
 Buat repoitory baru pada docker hub
