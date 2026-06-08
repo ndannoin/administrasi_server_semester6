@@ -74,13 +74,13 @@ COMMIT & PUSH WORKFLOW
 WEB STATIC
 alt text
 
-WEB DYNAMIC
+![alt text](image-15.png)
 
 10. Live Test Zero Touch
 STATIC
 Mengubah <div class="hero-badge">Himpunan Resmi Mahasiswa UINSSC</div>
 Menjadi  <div class="hero-badge">UAS ADMINISTRASI SERVER : CLOUD COMPUTING II</div>
-
+![alt text](image-16.png)
 
 DYNAMIC
 Mengubah <p class="eyebrow">UAS Administrasi Server</p>
