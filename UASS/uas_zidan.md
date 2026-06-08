@@ -75,7 +75,6 @@ WEB STATIC
 alt text
 
 WEB DYNAMIC
-alt text
 
 10. Live Test Zero Touch
 STATIC
