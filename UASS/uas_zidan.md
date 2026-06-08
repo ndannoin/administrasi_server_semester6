@@ -80,9 +80,9 @@ WEB DYNAMIC
 STATIC
 Mengubah <div class="hero-badge">Himpunan Resmi Mahasiswa UINSSC</div>
 Menjadi  <div class="hero-badge">UAS ADMINISTRASI SERVER : CLOUD COMPUTING II</div>
-alt text alt text
+
 
 DYNAMIC
 Mengubah <p class="eyebrow">UAS Administrasi Server</p>
 Menjadi <p class="eyebrow">UAS Administrasi Server | Cloud Computing II</p>
-alt text alt text
+![alt text](image-14.png)
